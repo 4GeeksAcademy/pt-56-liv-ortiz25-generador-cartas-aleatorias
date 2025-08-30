@@ -5,9 +5,23 @@ body{
 }
 
 .card {
-    width: 380px ;
-    height: 480px;
     background: #fff;
-    border-radius: 20px;
+    border-radius:25px;
     margin: auto;
+}
+.number {
+    font-size: 165px;
+}
+.textSize1 {
+    font-size: 100px;
+}
+.textSize2 {
+    font-size: 100px;
+    transform: rotate(180deg);
+}
+.textRed {
+    color: red;
+}
+.textBlack{
+    color: black
 }

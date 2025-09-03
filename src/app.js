@@ -35,7 +35,7 @@ function randomCardGen (){
   iconTop.classList.remove("textRed", "textBlack");
   iconBottom.classList.remove("textRed", "textBlack");
 
-  if (icon==="♥" || signo === "♦"){
+  if (icon==="♥" || icon === "♦"){
     number.classList.add("textRed");
     iconTop.classList.add("textRed");
     iconBottom.classList.add("textRed");
